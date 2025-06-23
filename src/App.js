@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import StartScreen from './components/StartScreen';
 import GameBoard from './components/GameBoard';
@@ -41,7 +41,7 @@ function App() {
             theme={theme}
             level={level}
             onGameOver={handleGameOver}
-            onBack={() => setScreen('start')} // ✅ Now passed correctly
+            onBack={() => setScreen('start')} 
           />
         )}
 

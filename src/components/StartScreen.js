@@ -1,5 +1,5 @@
 // src/components/StartScreen.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Container, Button, Card, Row, Col } from 'react-bootstrap';
 
 function StartScreen({ onStart }) {

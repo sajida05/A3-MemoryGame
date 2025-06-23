@@ -1,5 +1,4 @@
 // src/components/EndScreen.js
-import React from 'react';
 import { Container, Card, Button } from 'react-bootstrap';
 
 function EndScreen({ moves, onRestart, theme, level }) {
@@ -13,7 +12,7 @@ function EndScreen({ moves, onRestart, theme, level }) {
         <p><strong>Total Moves:</strong> {moves}</p>
 
         <Button variant="primary" size="lg" onClick={onRestart}>
-          🔁 Play Again
+          Play Again
         </Button>
       </Card>
     </Container>
